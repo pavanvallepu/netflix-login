@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+   
+</head>
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" class="logo">    
+    <div class="signin">
+        <h2 class="font">signin</h2>
+   
+        <form id="loginForm">
+            <input type="text" id="email" placeholder="email or mobile number" required>
+            <input type="password" id="password" placeholder="password" required>
+            <button type="submit">login</button>
+            <p>or</p>
+            <button class="sign-in">use sign-in code</button><br>
+            <a href="#">forgot password?</a>
+        </form>
+        <div class="other-details">
+            <input type="checkbox" id="reminder" name="reminder" value="reminder">
+            <label for="reminder">Remember me</label><br>
+            <p>new to netflix?<a href="#" class="name"> sign up now</a></p>
+            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+        </div>
+        <div id="loginError" style="color: red; display: none;">Incorrect credentials. Please try again.</div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

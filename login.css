@@ -1,0 +1,77 @@
+body {
+          background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs');/* Black with 30% opacity */
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+          display: flex;
+         
+    }
+.logo{
+            width: 180px;
+            height: 70px;
+            margin-top: 20px;
+            padding-left: 90px;
+          
+}
+.signin{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    box-sizing: center;
+    margin-top: 150px;
+    margin-left: 250px;
+  
+}
+.font{
+    font-size: 2.5em;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.name {
+    color:red;
+}
+
+input {
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    width: 260px;
+    height: 30px;
+    background-color: #f30107;
+    color: white;
+    cursor: pointer;
+
+    
+}
+button:hover{
+    background-color: #830c0ed3;
+}
+#reminder{
+    height: 18px;
+    width: 20px;
+
+}
+.sign-in{
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+.other-details{
+    padding: 10px;;
+}
